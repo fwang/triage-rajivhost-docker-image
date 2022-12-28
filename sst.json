@@ -1,0 +1,5 @@
+{
+  "name": "triage-rajivhost-docker-image",
+  "region": "us-east-1",
+  "main": "stacks/index.ts"
+}
