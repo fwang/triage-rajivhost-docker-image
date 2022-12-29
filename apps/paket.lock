@@ -1,0 +1,11 @@
+STORAGE: NONE
+RESTRICTION: == net7.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Amazon.Lambda.APIGatewayEvents (2.5)
+    Amazon.Lambda.Core (2.1)
+    Amazon.Lambda.RuntimeSupport (1.8.2)
+      Amazon.Lambda.Core (>= 2.1)
+    Amazon.Lambda.Serialization.SystemTextJson (2.3)
+      Amazon.Lambda.Core (>= 2.1)
+    FSharp.Core (7.0)

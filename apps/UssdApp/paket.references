@@ -1,0 +1,4 @@
+FSharp.Core
+Amazon.Lambda.RuntimeSupport
+Amazon.Lambda.APIGatewayEvents
+Amazon.Lambda.Serialization.SystemTextJson

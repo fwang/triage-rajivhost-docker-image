@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: auto-detect
+
+nuget FSharp.Core
+nuget Amazon.Lambda.RuntimeSupport
+nuget Amazon.Lambda.APIGatewayEvents
+nuget Amazon.Lambda.Serialization.SystemTextJson

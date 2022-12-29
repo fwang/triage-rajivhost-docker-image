@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\net7.0",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-7.0.exe",
+      "environmentVariables": {
+        "GRAPHQL_API_URL": "https://s7wj7lv2xzcc5fu3ym4slacgda.appsync-api.eu-west-1.amazonaws.com/graphql",
+        "CLERK_API_BASE_URL": "https://api.clerk.dev",
+        "CLERK_API_KEY": "test_DOLkbJ0ibYKETJqIQkcW5lCzrN8VlBzIOG",
+        "STAGE_NAME": "dev",
+        "REDIS_HOST": "eu1-equipped-duckling-38290.upstash.io",
+        "REDIS_PORT": "38290",
+        "REDIS_USER": "default",
+        "REDIS_PASSWORD": "e57ca742339341b0b89d19b058597eb0"
+      }
+    }
+  }
+}
